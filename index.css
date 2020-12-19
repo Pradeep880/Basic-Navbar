@@ -1,0 +1,37 @@
+.main{
+    border:2px solid red;
+    display: inline-block;
+    text-align: center;
+    margin:0px;
+    padding:3px;
+}
+.H1tag{
+    font-size:16px;
+    font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+ul{
+  margin:0px;
+  padding:0px;
+  
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  border:2px solid blue;
+  align-items: center;
+  justify-content: center;
+}
+ul li{
+  padding:5px;
+  background-color: rgb(75, 69, 69);
+  margin:5px;
+  width:100px;
+  text-align:center;
+}
+ul li a{
+text-decoration: none;
+font-size:20px;
+color:rgb(163, 154, 154);
+
+}
